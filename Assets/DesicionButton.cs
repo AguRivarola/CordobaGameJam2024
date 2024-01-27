@@ -8,9 +8,7 @@ using UnityEngine.UI;
 public class DesicionButton : MonoBehaviour
 {
 
-    public Button EvilButton;
     public GameController Controller;
-    public bool updateEvil;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +26,14 @@ public class DesicionButton : MonoBehaviour
     {
         print($"{name} . {Controller == null}");
         Controller.nuevaVictima = true;
+
+        print("Click");
+    }
+
+    public void ClickGood()
+    {
+        print($"{name} . {Controller == null}");
+        Controller.nuevaBuenaAccion = true;
 
         print("Click");
     }

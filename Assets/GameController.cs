@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
     public int victimasMaldad = 0;
     public bool nuevaVictima { get; set; }
     public int buenasAcciones = 0;
-    bool nuevaBuenaAccion {  get; set; }
+    public bool nuevaBuenaAccion {  get; set; }
 
 
 
